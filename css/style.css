@@ -1,0 +1,149 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  color:#66BFBF;
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*562.5% or 5.625em*/
+  /*width:20%;
+  margin:0 auto;*/
+}
+/*font size: dynamic way 1. % 16px=100%  2. em 16px=1em - they gets inherited from yhe parents changes in font*-solution use rem*/
+h2{
+  color:#66BFBF;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding: 1px;
+}
+h3{
+  color: #119999;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  margin: 100px auto;
+  border-style: dotted none none none;
+  border-width: thick;
+  width: 10%;
+  border-color: silver;
+}
+p{
+  line-height: 2;
+}
+.top{
+  background-color: #DFF6FF;
+  padding-top: 50px;
+  position: relative;
+}
+
+.middle{
+  margin: 100px auto;
+}
+.profile{
+  margin:auto;
+  width:50%;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto;
+  text-align: left;
+}
+.contact-me{
+  margin: auto;
+  width: 50%;
+}
+.contact-para{
+  margin: 80px auto;
+}
+.bttn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.bttn:hover {
+  background: #30e3cd;
+  background-image: -webkit-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cd, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom{
+  margin-top: 100px;
+  padding: 20px;
+  background-color:#66BFBF;
+}
+a{
+  color:#11999e;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copywrite{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+}
+.cloud1{
+  height: 55px;
+  width:90px;
+  position:absolute;
+  top:20px;
+  right:150px;
+}
+.cloud2{
+  height: 55px;
+  width:90px;
+  position:absolute;
+  top:250px;
+  left:160px;
+}
+.Mount{
+  height: 150px;
+  width: 450px;
+}
+.arya-pic{
+  height: 20%;
+  width: 20%;
+  border-radius: 100%;
+}
+.sports-pic{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.coding-pic{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+  /*float only for text wrapping*/
+}
+/*.code-para{
+  padding: 15px;
+  clear:right;
+  clear-prevevts text to wrap around
+}
+.sports-para{
+  padding: 15px;
+  clear:left;
+}*/
